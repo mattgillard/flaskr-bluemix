@@ -1,0 +1,6 @@
+applications:
+- name: mgillard-test
+  memory: 128M
+  buildpack: https://github.com/cloudfoundry/cf-buildpack-python.git
+  services:
+  - cleardb
